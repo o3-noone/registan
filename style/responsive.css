@@ -1,0 +1,166 @@
+@media screen and (max-width: 1315px) {
+    :root {
+        --padding-all: 0 9%;
+    }
+
+    .header {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    :root {
+        --padding-all: 0 8%;
+    }
+
+    .header-is__List {
+        display: block;
+    }
+
+    .header-is__List>.h__List>.h__callBtn {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .h__Link {
+        display: none;
+    }
+
+    .h__List {
+        display: none;
+    }
+
+    .h__callBtn {
+        display: none;
+    }
+
+    .h__burger {
+        display: block;
+        display: flex;
+        margin: 0;
+    }
+
+    .h__location {
+        display: none;
+    }
+
+    .h__logo {
+        margin: 0;
+        /* width: 85%; */
+    }
+
+    .h__logo>a {
+        width: 200px;
+    }
+
+
+}
+
+@media screen and (max-width: 1180px) {
+    :root {
+        --padding-all: 0 7%;
+    }
+
+    .rent__link-list {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .rent__link>h3 {
+        width: 100%;
+    }
+
+    .rent__link-first {
+        width: 100%;
+    }
+
+    .rent__link-last {
+        width: 100%;
+        margin: 0;
+    }
+
+    .callImg {
+        width: 20%;
+        height: 50%;
+    }
+
+    .call__link-last {
+        width: 80%;
+        height: 100%;
+        margin: 0;
+    }
+
+}
+@media screen and (max-width: 1040px) {
+    .ItemList{
+        flex-direction: column;
+    }
+    .ItemLeftList{
+        width: 100%;
+        min-height: 200px;
+    }
+.ItemRightList{
+    width: 100%;
+}
+    .footer{
+        flex-direction: column;
+    }
+    .footer-l{
+        width: 100%;
+        margin: 0;
+    }
+    .footer-r{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .callImg {
+        display: none;
+    }
+    .call__link-last {
+    width: 100%;
+}
+
+.call__link-last>input {
+    width: 100%;
+}
+
+.call__link-last>button {
+    width: 100%;
+}
+.call__link-last>span{
+    width: 100%;
+}
+}
+@media screen and (max-width: 600px) {
+    :root {
+        --padding-all: 0 3%;
+        --font-48: 36px;
+    }
+
+    .hero__List {
+        padding: 0 10px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 440px) {
+    .rent__link-last>input {
+        width: 100%;
+    }
+
+    .rent__link-last>button {
+        width: 100%;
+    }
+
+    .h__logo {
+        max-width: 200px;
+    }
+    .hero__Text>h2{
+        font-size: 48px;
+    }
+}
